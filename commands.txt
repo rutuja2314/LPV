@@ -1,0 +1,39 @@
+sudo apt update  
+sudo apt install python3-venv  
+python3 -m venv tfenv  
+source tfenv/bin/activate  
+pip install --upgrade pip  
+pip install tensorflow  
+pip install notebook  
+pip install scikit-learn  
+
+
+jupyter notebook
+त्यामुळे ब्राऊझरमध्ये नोटबुक उघडेल. तिथे new file उघडून code करा.
+
+जर पुन्हा error आला तर नवीन टर्मिनल उघडा आणि:
+
+source tfenv/bin/activate
+ही कमांड टाका.
+
+त्यानंतर:
+
+
+pip install pandas  , pip install matplotlib, pip install tensorflow as per error downloading 
+या कमांड्स टाकून आवश्यक त्या लायब्ररी इंस्टॉल करा.
+
+
+If notebook isn't installed directly try installing jupyterlab first
+
+sudo apt update  
+sudo apt install python3-venv  
+python3 -m venv tfenv  
+source tfenv/bin/activate  
+pip install --upgrade pip  
+pip install tensorflow jupyterlab notebook scikit-learn
+[10/05, 12:29 am] Pranav Mehendale DPU: sudo apt update  
+sudo apt install python3-venv  
+python3 -m venv tfenv  
+source tfenv/bin/activate  
+pip install --upgrade pip  
+pip3 install tensorflow jupyterlab notebook pandas matplotlib scikit-learn seaborn tqdm
